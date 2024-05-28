@@ -1,0 +1,36 @@
+.login{
+  width: 50%;
+  margin: 10% 17%;
+  display:flex;
+  border: 0.2px solid black;
+  background:linear-gradient(to left, aquamarine,rgba(209, 84, 244, 0.677)  ),url(../images/logo3.png);
+  align-items: center;
+  justify-content: space-around;
+  padding: 2.5rem;
+  background-size: cover;
+}
+.input-responsive{
+  border: 0.01px solid rgba(209, 84, 244, 0.677);
+  color: brown;
+  padding: 7px;
+  background-color: rgb(205, 245, 254);
+  font-size: 16px;
+  font-weight: 500;
+  width: 400px;
+  border-radius: 3px;
+}
+.login .btn{
+  margin-left: 10px;
+}
+.login .img{
+  margin-left: 40%;
+  align-self: center;
+}
+.img img{
+  border-radius: 13%;
+}
+.login p{
+  color: aliceblue;
+  background:linear-gradient(to right,grey,transparent);
+  padding:5px;
+}

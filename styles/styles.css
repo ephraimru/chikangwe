@@ -1,0 +1,149 @@
+
+/*************************
+BUTTON STYLES
+**************************/
+
+.btn-gradient{
+  color: #fff;
+  padding: 0;
+  background: linear-gradient(to right,hsl(190, 73%, 45%),transparent);
+  font-size: larger;
+  width: 100%;
+  border-radius: 0px 113px 0px 0px;
+}
+
+.btn-seagreen{
+  background: seagreen;
+  padding: 1%;
+  color: bisque;
+  font-weight: bold;
+  text-decoration: none;
+  border: 0;
+}
+.btn-seagreen:hover{
+  color:  bisque;
+  background: #011b0c ;
+}
+
+.rounded{
+  border-radius:50%;
+}
+.bg{
+ background:linear-gradient(#6DB3F2,white), url('../images/bg2.jpg');
+ background-position: center;
+ background-size: cover;
+}
+/**************************
+NAVBAR STYLES
+**************************/
+
+.navbar{
+  color: brown;
+  background-color: azure;
+  display: flex;
+  justify-content: space-around;
+  padding: 22px;
+}
+.navbar ul{
+  display: flex;
+  justify-content: space-around;
+
+}
+.navbar ul li{
+  padding-left: 3rem;
+  text-decoration:none;
+  list-style: none;
+}
+
+.navbar a{
+  text-decoration:none;
+  color: brown;
+  font-size: large;
+  font-weight: 500;
+  
+}
+
+
+
+/**************************
+TABLE STYLES
+**************************/
+table tr th{
+  color: #1facc9 !important;
+  font-weight: 600 !important;
+  font-variant-caps: all-petite-caps;
+}
+table, tr, td{
+color: purple !important;
+}
+.tbl-full{
+width: 100%;
+border: #1e90ff 1px solid;
+color: #000 !important;
+}
+.tbl-full td, .tbl-full th{
+  /* border: 1px solid rgba(128, 0, 128, 0.689); */
+  text-align: center !important;
+  padding: 1rem 0rem;
+}
+.tbl-30{
+  width: 30%;
+  font-size: larger;
+}
+.tbl-30 .input-text{
+  padding: 0.5rem !important;
+  border: #1e90ff 0.1px solid;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.tbl-full tbody tr:nth-of-type(odd) {
+    background-color: rgba(15, 15, 15, 0.087);
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+    
+}
+
+.main-content{
+  width: 90%;
+  padding: 3rem;
+}
+
+
+/**********************************
+WORKERS STYLES
+**********************************/
+.banner{
+  width: 99%;
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.banner2{
+  width: auto;
+}
+
+/**********************************
+RESUME
+**********************************/
+.resume{
+  width: 40%;
+  padding: 0.5rem;
+  margin-left: 13px;
+}
+.resume img{
+  width: 100%;
+}
+/**********************************
+FOOTER STYLES
+**********************************/
+
+footer .d-flex{
+  display: flex;
+  justify-content: center;
+
+  color: lightblue;
+}
+
